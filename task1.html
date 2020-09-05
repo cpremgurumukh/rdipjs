@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calculator</title>
+<link rel='stylesheet' href='task1.css' type='text/css' />
+</head>
+<body>
+<script src="task.js"></script>
+<h1>Calculator</h1>
+<div class="id">
+<center>
+    <form name="calc">
+    <input type="text" name="result" size="30px" readonly>
+    </form>
+	<br><br>
+
+<table>
+  <tr>
+    <td><button type="button" id="1" onclick="Function(this.id)">1</button></td> 
+    <td><button type="button" id="2" onclick="Function(this.id)">2</button></td> 
+    <td><button type="button" id="3" onclick="Function(this.id)">3</button></td> 
+  </tr>
+  <tr>
+    <td><button type="button" id="4" onclick="Function(this.id)">4</button></td> 
+    <td><button type="button" id="5" onclick="Function(this.id)">5</button></td> 
+    <td><button type="button" id="6" onclick="Function(this.id)">6</button></td> 
+  </tr>
+  <tr>
+    <td><button type="button" id="7" onclick="Function(this.id)">7</button></td> 
+    <td><button type="button" id="8" onclick="Function(this.id)">8</button></td>
+    <td><button type="button" id="9" onclick="Function(this.id)">9</button></td> 
+  </tr>
+  <tr>
+    <td><button type="button" id="0" onclick="Function(this.id)">0</button></td> 
+    <td><button type="button" id="+" onclick="Function(this.id)">+</button></td> 
+    <td><button type="button" id="-" onclick="Function(this.id)">-</button></td>  
+  </tr>
+  <tr>
+    <td><button type="button" id="*" onclick="Function(this.id)">x</button></td> 
+    <td><button type="button" id="/" onclick="Function(this.id)">/</button></td>
+    <td><button type="button" id="ANS" onclick="equal()">=</button></td> 
+  </tr>
+  
+<td><button type="button" id="CLEAR" onclick="Clear()">c</button></td> 
+<td><button type="button" id="%" onclick="Function(this.id)">%</button></td>
+<td><button type="button" id="absolute" onclick="absolute()">abs</button></td>
+<td><button type="button" id="SQRT" onclick="sqrt()">&#8730</button></td>
+</table>
+</div>
+</center>
+</body>
+</html>
