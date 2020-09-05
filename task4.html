@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='task4.css' type='text/css' />
+</head>
+<body>
+<script src="task.js"></script>
+<h1>
+Click on First Number and Second Number to generate random values 
+and Click on submit to start the game<br>
+<button onclick="gen1()">First Number</button>:<input type="text" id="g1"><br>
+<button onclick="gen2()">Second Number</button>:<input type="text" id="g2"><br>
+<button onclick="main()">Submit</button>
+<br>logic:-<br>
+var a= Math.floor(Math.random() * (1000));<br>
+var c=a%3;<br>
+var d=b%3;<br>
+		if(c==d){<br>
+			document.write("TIE");<br>
+		}<br>
+		else if(c==0 && d==1){<br>
+			document.write("Human Survives");<br>
+		}<br>
+		else if(c==0 && d==2){<br>
+			document.write("Human dies");<br>
+		}<br>
+		else if(c==1 && d==2){<br>
+			document.write("Cockroach Survives");<br>
+		}<br>
+	}<br>
+	<br>
+</h1>
+</body>
+</html>
