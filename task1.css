@@ -1,0 +1,26 @@
+.id{
+	border: 2px solid black;
+	margin-top: 10%;
+	height: 250px;
+	margin-left:40%;
+	margin-right:40%;
+	
+ }
+body  
+{  
+background-color:Cyan;  
+}
+.box  
+{  
+background-color:#3d4543;  
+height:300px;  
+width:250px;  
+border-radius:10px;  
+position:relative;  
+top:80px;  
+left:40%;  
+}
+h1{
+text-align:center;
+color:#2C5F2DFF;
+}
